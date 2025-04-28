@@ -2,9 +2,9 @@ from classes import Window, Point, Line, Cell, Maze
 
 def main():
     win = Window(800, 600)
-    margin = 5
-    rows = 12
-    cols = 16
+    margin = 10
+    rows = 40
+    cols = 40
     screen_x = 800
     screen_y = 600
     cell_size_x = (screen_x - (margin * 2)) / cols
